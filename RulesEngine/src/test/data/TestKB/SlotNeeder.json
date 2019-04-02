@@ -1,0 +1,25 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "SlotNeeder",
+		"parentClassId": "BaseNeeder"
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [{
+						"valueProperties": 
+						{
+							"objectId": "controller_slot_needer",
+							"parentClassId": "SlotNeeder",
+							"description": "PCI Slot Needer",
+							"protocolType": "PCISlot"						
+						},
+						
+						"listProperties": 
+						{
+							"providerParentClassIds": ["Backplane"]
+						}						
+					 }
+					]
+}

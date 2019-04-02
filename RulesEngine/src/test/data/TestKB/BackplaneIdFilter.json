@@ -1,0 +1,27 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "BackplaneIdFilter",
+		"parentClassId": "PropertyValueFilter"
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [{
+						"valueProperties": 
+						{
+							"objectId": "valid_pci_type_filter",
+							"parentClassId": "BackplaneIdFilter",
+							"protocolType": "PCISlot",
+							"objectPropertyName": "objectId",
+							"failureMessage": "Incompatible backplane"
+						},
+						
+						"listProperties": 
+						{
+							"applicableObjectIds": ["pcix_controller"],
+							"permittedObjectPropertyValues": ["pcix_backplane_3_slot"]				
+						}
+					 }
+					]
+}

@@ -1,0 +1,27 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "Drawer",
+		"parentClassId": "BaseObject",
+		"validationOrder": 50
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [{
+						"valueProperties": 
+						{
+							"objectId": "pciex_slot_drawer",
+							"parentClassId": "Drawer",
+							"description": "PCI-E/X Slot Drawer",
+							"partNumber": "7001",
+							"maximum": 2
+						},
+						
+						"listProperties": 
+						{
+							"providerObjectIds": ["backplane_bay", "backplane_bay"]
+						}	
+					 }
+					]
+}

@@ -1,0 +1,62 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "Backplane",
+		"parentClassId": "BaseObject"
+	},
+	
+	/* ModelClass list properties not-inherited/overidden */
+	"listProperties": 
+	{
+		"neederObjectIds": ["backplane_bay_needer"]
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [
+					 {
+						"valueProperties": 
+						{
+							"objectId": "pcie_backplane_2_slot",
+							"parentClassId": "Backplane",
+							"description": "2-Slot PCI-E Backplane",
+							"partNumber": "2421"
+						},
+						
+						"listProperties": 
+						{
+							"providerObjectIds": ["controller_slot", "controller_slot"]
+						}	
+					 },
+					 {
+						"valueProperties": 
+						{
+							"objectId": "pcix_backplane_3_slot",
+							"parentClassId": "Backplane",
+							"description": "3-Slot PCI-X Backplane",
+							"partNumber": "2422"
+						},
+						
+						"listProperties": 
+						{
+							"providerObjectIds": ["controller_slot", "controller_slot", "controller_slot"]
+						}	
+					 },
+					 /* Incompatible backplane to test backtracking */
+					 {
+						"valueProperties": 
+						{
+							"objectId": "large_pci_backplane_2_slot",
+							"parentClassId": "Backplane",
+							"description": "2-Slot PCI-E Large Backplane",
+							"partNumber": "2423"
+						},
+						
+						"listProperties": 
+						{
+							"neederObjectIds": ["large_backplane_bay_needer"],
+							"providerObjectIds": ["controller_slot", "controller_slot"]
+						}	
+					 }
+					]
+}

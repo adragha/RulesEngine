@@ -1,0 +1,130 @@
+
+RESULTS:
+
+pciex_slot_drawer (ID = 1015), Part Number = 7001, Status = SUCCESSFUL
+PROVIDERS:
+	backplane_bay (ID = 1015:1)
+		Unused Quantity = 0.0
+	backplane_bay (ID = 1015:2)
+		Unused Quantity = 0.0
+
+pciex_slot_drawer (ID = 1018), Part Number = 7001, Status = SUCCESSFUL
+PROVIDERS:
+	backplane_bay (ID = 1018:1)
+		Unused Quantity = 0.0
+	backplane_bay (ID = 1018:2)
+		Unused Quantity = 0.0
+
+pcix_backplane_3_slot (ID = 1014), Part Number = 2422, Status = SUCCESSFUL
+NEEDERS:
+	backplane_bay_needer (ID = 1014:1)
+		Satisfying Provider = backplane_bay (ID = 1015:1)
+PROVIDERS:
+	controller_slot (ID = 1014:2)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1014:3)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1014:4)
+		Unused Quantity = 0.0
+
+pcix_backplane_3_slot (ID = 1016), Part Number = 2422, Status = SUCCESSFUL
+NEEDERS:
+	backplane_bay_needer (ID = 1016:1)
+		Satisfying Provider = backplane_bay (ID = 1015:2)
+PROVIDERS:
+	controller_slot (ID = 1016:2)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1016:3)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1016:4)
+		Unused Quantity = 0.0
+
+pcix_backplane_3_slot (ID = 1017), Part Number = 2422, Status = SUCCESSFUL
+NEEDERS:
+	backplane_bay_needer (ID = 1017:1)
+		Satisfying Provider = backplane_bay (ID = 1018:1)
+PROVIDERS:
+	controller_slot (ID = 1017:2)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1017:3)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1017:4)
+		Unused Quantity = 0.0
+
+pcix_backplane_3_slot (ID = 1019), Part Number = 2422, Status = SUCCESSFUL
+NEEDERS:
+	backplane_bay_needer (ID = 1019:1)
+		Satisfying Provider = backplane_bay (ID = 1018:2)
+PROVIDERS:
+	controller_slot (ID = 1019:2)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1019:3)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1019:4)
+		Unused Quantity = 0.0
+
+pcix_controller (ID = 1001), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1001:1)
+		Satisfying Provider = controller_slot (ID = 1014:2)
+
+pcix_controller (ID = 1002), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1002:1)
+		Satisfying Provider = controller_slot (ID = 1014:3)
+
+pcix_controller (ID = 1003), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1003:1)
+		Satisfying Provider = controller_slot (ID = 1014:4)
+
+pcix_controller (ID = 1004), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1004:1)
+		Satisfying Provider = controller_slot (ID = 1016:2)
+
+pcix_controller (ID = 1005), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1005:1)
+		Satisfying Provider = controller_slot (ID = 1016:3)
+
+pcix_controller (ID = 1006), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1006:1)
+		Satisfying Provider = controller_slot (ID = 1016:4)
+
+pcix_controller (ID = 1007), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1007:1)
+		Satisfying Provider = controller_slot (ID = 1017:2)
+
+pcix_controller (ID = 1008), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1008:1)
+		Satisfying Provider = controller_slot (ID = 1017:3)
+
+pcix_controller (ID = 1009), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1009:1)
+		Satisfying Provider = controller_slot (ID = 1017:4)
+
+pcix_controller (ID = 1010), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1010:1)
+		Satisfying Provider = controller_slot (ID = 1019:2)
+
+pcix_controller (ID = 1011), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1011:1)
+		Satisfying Provider = controller_slot (ID = 1019:3)
+
+pcix_controller (ID = 1012), Part Number = 3561, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1012:1)
+		Satisfying Provider = controller_slot (ID = 1019:4)
+
+pcix_controller (ID = 1013), Part Number = 3561, Status = FAILED
+NEEDERS:
+	controller_slot_needer (ID = 1013:1)
+		Satisfying Provider = 
+

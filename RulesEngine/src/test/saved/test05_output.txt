@@ -1,0 +1,25 @@
+
+RESULTS:
+
+pcie_backplane_2_slot (ID = 1003), Part Number = 2421, Status = SUCCESSFUL
+NEEDERS:
+	backplane_bay_needer (ID = 1003:1)
+		Satisfying Provider = backplane_bay (ID = 1004:1)
+PROVIDERS:
+	controller_slot (ID = 1003:2)
+		Unused Quantity = 0.0
+	controller_slot (ID = 1003:3)
+		Unused Quantity = 1.0
+
+pcie_controller (ID = 1001), Part Number = 3562, Status = SUCCESSFUL
+NEEDERS:
+	controller_slot_needer (ID = 1001:1)
+		Satisfying Provider = controller_slot (ID = 1003:2)
+
+pciex_slot_drawer (ID = 1004), Part Number = 7001, Status = SUCCESSFUL
+PROVIDERS:
+	backplane_bay (ID = 1004:1)
+		Unused Quantity = 0.0
+	backplane_bay (ID = 1004:2)
+		Unused Quantity = 1.0
+

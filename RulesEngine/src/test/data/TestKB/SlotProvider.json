@@ -1,0 +1,21 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "SlotProvider",
+		"parentClassId": "BaseProvider"
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [{
+						"valueProperties": 
+						{
+							"objectId": "controller_slot",
+							"parentClassId": "SlotProvider",
+							"description": "PCI Slot",
+							"protocolType": "PCISlot",						
+							"quantityProvided": 1			
+						}
+					 }
+					]
+}

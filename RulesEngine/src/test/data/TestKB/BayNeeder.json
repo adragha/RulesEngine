@@ -1,0 +1,41 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "BayNeeder",
+		"parentClassId": "BaseNeeder"
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [
+					 {
+						"valueProperties": 
+						{
+							"objectId": "backplane_bay_needer",
+							"parentClassId": "BayNeeder",
+							"description": "Backplane Bay Needer",
+							"protocolType": "BackplaneBay"						
+						},
+						
+						"listProperties": 
+						{
+							"providerParentClassIds": ["Drawer"]
+						}						
+					 },
+					 /* Incompatible bay needer to test backtracking */
+					 {
+						"valueProperties": 
+						{
+							"objectId": "large_backplane_bay_needer",
+							"parentClassId": "BayNeeder",
+							"description": "Backplane Bay Needer",
+							"protocolType": "LargeBackplaneBay"						
+						},
+						
+						"listProperties": 
+						{
+							"providerParentClassIds": ["Drawer"]
+						}						
+					 }
+					]
+}

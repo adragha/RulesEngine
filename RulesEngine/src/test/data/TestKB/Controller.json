@@ -1,0 +1,36 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "Controller",
+		"parentClassId": "BaseObject"
+	},
+	
+	/* ModelClass list properties not-inherited/overidden */
+	"listProperties": 
+	{
+		"neederObjectIds": ["controller_slot_needer"]
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [
+					 {
+						"valueProperties": 
+						{
+							"objectId": "pcix_controller",
+							"parentClassId": "Controller",
+							"description": "PCI-X Controller",
+							"partNumber": "3561"
+						}
+					 },
+					 {
+						"valueProperties": 
+						{
+							"objectId": "pcie_controller",
+							"parentClassId": "Controller",
+							"description": "PCI-E Controller",
+							"partNumber": "3562"
+						}
+					 }
+					]
+}

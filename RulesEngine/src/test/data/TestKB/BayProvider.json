@@ -1,0 +1,21 @@
+{
+	/* ModelClass definition and value properties not-inherited/overidden */
+	"valueProperties": 
+	{
+		"classId": "BayProvider",
+		"parentClassId": "BaseProvider"
+	},
+	
+	/* ModelObject data derived from this ModelClass */
+	"modelObjects": [{
+						"valueProperties": 
+						{
+							"objectId": "backplane_bay",
+							"parentClassId": "BayProvider",
+							"description": "Backplane Bay",
+							"protocolType": "BackplaneBay",			
+							"quantityProvided": 1			
+						}
+					 }
+					]
+}
